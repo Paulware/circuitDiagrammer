@@ -1,0 +1,24 @@
+{
+	"items": [ 
+		{
+			"type": "solidStateRelay",
+			"name": "solid1", 
+			"x": 100,
+			"y": 100
+		},
+		{
+			"type": "j3",
+			"name": "j3a",
+			"x": 100,
+			"y": 200
+		},
+		{   
+		    "type": "connection",
+			"name": "c1", 
+			"sourceName":"solid1", 
+			"sourceIndex":2,
+			"endName":"j3a",
+			"endIndex":3
+        }
+	]
+}
